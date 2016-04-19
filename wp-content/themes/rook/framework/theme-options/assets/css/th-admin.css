@@ -1,0 +1,95 @@
+/* ----------------------------------------------------
+	Admin CSS
+------------------------------------------------------- */
+
+/* ---Metaboxes---*/
+
+.fullwidth-metabox.form-table {
+	padding-top: 10px;
+}
+
+	.fullwidth-metabox.form-table input[type='text']:not(.wp-color-picker) {
+		width: 280px;
+		padding: 6px;
+	}
+	
+	.fullwidth-metabox.form-table textarea {
+		width: 70%;
+		height: 100px;
+		padding: 6px;
+	}
+
+.fullwidth-metabox.form-table h6 {
+	font-weight: 700;
+	width: 160px;
+	font-size: 14px;
+	float:left;
+	margin: 0;
+	margin-top: 7px;
+	min-height: 32px;
+}
+
+.fullwidth-metabox.form-table label {
+
+	width: 160px;
+
+	float:left;
+	margin: 0;
+	margin-top: 7px;
+	min-height: 32px;
+}
+
+.fullwidth-metabox .metabox-option {
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+
+.meta-desc-field{
+	margin-left:160px;
+}
+
+/* Portfolio radio buttons */
+
+.metabox-option  .of-radio-img{
+	width:45px;
+	height:45px;
+	cursor:pointer;
+	border: 2px solid #fff;
+	margin: 5px 10px 0px 0;
+}
+
+	.metabox-option  .of-radio-img:hover {
+		opacity:0.9;
+	}
+
+.metabox-option .radio-img-selected {
+	border: 2px solid #696969;
+}
+
+.radio-label, .img-radio{
+display:none;
+}
+
+/* ---Visual composer---*/
+
+.wpb_vc_empty_space .wpb_element_wrapper {
+	background-image: url('../images/space.png') !important;
+	background-repeat: repeat-x !important;
+  background-position: center center !important;
+  padding: 0 !important;
+  height: 25px;
+  min-height: 25px !important;
+}
+
+.wpb_vc_empty_space h4{
+	display:none !important;
+}
+
+.wpb_vc_empty_space span.vc_admin_label{
+	display:none !important;
+}
+
+/* ---Admin styles ---*/
+.wp-core-ui .notice.is-dismissible{
+	display:block;
+}

@@ -1,0 +1,20 @@
+/*  
+Theme Name: ROOK Child Theme
+Theme URI: http://rook-wp.wossthemes.com
+Version: 1.0
+Description: A Creative Multi-Concept One Page
+Author: Woss Themes
+Author URI: http://themeforest.net/user/WossThemes
+Template: rook
+*/
+@import url("../rook/style.css");
+
+.rk-portfolio-desc {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 5px;
+    display: none;
+}
+
+.col-sm-12 black-background col-md-12 .rk-head-title h1 {
+    color: #ffffff;
+}

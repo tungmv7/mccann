@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Avantgarde-std-bk';
+    font-style: normal;
+    src: url('150914080623Avantgarde-std-bk.eot');
+    src: local('Avantgarde-std-bk'), url('150914080623Avantgarde-std-bk.eot') format('embedded-opentype'), url('150914080623Avantgarde-std-bk.woff.html') format('woff');
+}
+@font-face {
+    font-family: 'Avantgarde-std-bkobl';
+    font-style: normal;
+    src: url('150914080644Avantgarde-std-bkobl.eot');
+    src: local('Avantgarde-std-bkobl'), url('150914080644Avantgarde-std-bkobl.eot') format('embedded-opentype'), url('150914080644Avantgarde-std-bkobl.woff.html') format('woff');
+}
+@font-face {
+    font-family: 'Avantgarde-std-md';
+    font-style: normal;
+    src: url('150914080705Avantgarde-std-md.eot');
+    src: local('Avantgarde-std-md'), url('150914080705Avantgarde-std-md.eot') format('embedded-opentype'), url('150914080705Avantgarde-std-md.woff.html') format('woff');
+}
+@font-face {
+    font-family: 'Avantgarde-std-mdobl';
+    font-style: normal;
+    src: url('150914080750Avantgarde-std-mdobl.eot');
+    src: local('Avantgarde-std-mdobl'), url('150914080750Avantgarde-std-mdobl.eot') format('embedded-opentype'), url('150914080750Avantgarde-std-mdobl.woff.html') format('woff');
+}
+@font-face {
+    font-family: 'Avantgarde-std-xlt';
+    font-style: normal;
+    src: url('150914080823Avantgarde-std-xlt.eot');
+    src: local('Avantgarde-std-xlt'), url('150914080823Avantgarde-std-xlt.eot') format('embedded-opentype'), url('150914080823Avantgarde-std-xlt.woff.html') format('woff');
+}
+@font-face {
+    font-family: 'Avantgarde-std-xlobl';
+    font-style: normal;
+    src: url('150914080852Avantgarde-std-xlobl.eot');
+    src: local('Avantgarde-std-xlobl'), url('150914080852Avantgarde-std-xlobl.eot') format('embedded-opentype'), url('150914080852Avantgarde-std-xlobl.woff.html') format('woff');
+}
+h1, h2, h3, #about .rk-head-title h1{
+    font-family: 'Avantgarde-std-xlt' !important;
+}

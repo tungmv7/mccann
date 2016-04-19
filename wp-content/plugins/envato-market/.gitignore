@@ -1,0 +1,16 @@
+.DS_Store
+
+# Sass
+.sass-cache
+
+# Grunt
+/dist/
+/node_modules/
+npm-debug.log
+
+# API Token
+.token
+
+# Composer
+composer.lock
+/vendor/
