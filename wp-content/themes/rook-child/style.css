@@ -15,7 +15,7 @@ Template: rook
     display: none;
 }
 
-.col-sm-12 black-background col-md-12 .rk-head-title h1 {
+.col-sm-12 .black-background .col-md-12 .rk-head-title h1 {
     color: #ffffff;
 }
 .blog-article {
@@ -42,7 +42,7 @@ Template: rook
         padding: 20px;
         border-right: none;
     }
-    .wpb_content_element {
+    #blog .wpb_widgetised_column.wpb_content_element {
         padding: 20px;
         margin-top: 20px;
     }
