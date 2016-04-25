@@ -1438,6 +1438,12 @@ function th_team_member($atts, $content=false)
                     <!-- Image -->
                     '.$image.'
                 </div>
+                <div class="team-details text-center">
+                    <!-- Info -->
+                    <h3>'.$name.'</h3>
+                    <h5>'.$position.'</h5>
+                    <p>'.$description.'</p>
+                </div>
             </div> <!-- /.row -->';
 
 }
