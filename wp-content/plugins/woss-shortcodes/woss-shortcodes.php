@@ -383,7 +383,7 @@ function th_blog_grid($atts, $content = null) {
             }
 
             $output .= '<!-- Blog Item -->
-                        <div class="col-sm-6 col-md-4 blog-article">
+                        <div class="col-sm-12 col-md-4 blog-article">
                             <a href="'. get_permalink($id).'">
                                 <article>
                                     <header>
@@ -391,7 +391,7 @@ function th_blog_grid($atts, $content = null) {
                                             <span class="blog-article-cat">'.$cat_name.' / <span class="blog-article-date">'.$time.'</span></span>
                                             <h2>'.get_the_title().'</h2>
                                         </div>
-                                        <p>'.th_excerpt_content($number_text).'</p>
+                                        <p>'.th_excerpt_content(30).'</p>
                                     </header>
                                     <p class="blog-article-btn">'.esc_attr_x('Read More', 'read more','rook').'</p>
                                 </article>
@@ -1437,16 +1437,6 @@ function th_team_member($atts, $content=false)
                 <div class="team-inner">
                     <!-- Image -->
                     '.$image.'
-                    <div class="team-caption">
-                        <!-- Social Icons -->
-                        <div class="t-social-holder">
-                            <div class="team-social">
-                                <h3>'.$custom_field.'</h3>
-                                <p>'.$custom_description.'</p>
-                                 '.$socials.'
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <div class="team-details text-center">
                     <!-- Info -->

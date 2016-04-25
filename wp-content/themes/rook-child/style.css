@@ -18,3 +18,35 @@ Template: rook
 .col-sm-12 black-background col-md-12 .rk-head-title h1 {
     color: #ffffff;
 }
+.blog-article {
+    overflow: hidden;
+    height: 400px;
+}
+.blog-article .blog-header h2{
+    display: -webkit-box;
+    height: 50px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.team-inner>img {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .blog-article {
+        overflow: hidden;
+        height: auto;
+        padding: 20px;
+        border-right: none;
+    }
+    .wpb_content_element {
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .footer-social li {
+        display: inline-block;
+    }
+}
