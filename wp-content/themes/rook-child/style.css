@@ -35,6 +35,9 @@ Template: rook
     margin: 0 auto;
 }
 
+#buynow {
+    position: relative;
+}
 @media (max-width: 768px) {
     .blog-article {
         overflow: hidden;
