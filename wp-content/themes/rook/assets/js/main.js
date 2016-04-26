@@ -45,6 +45,18 @@
                 event.preventDefault();
             }
         });
+        jQuery('.main-actions a').bind('click', function(event) {
+            var jQueryanchor = jQuery(this);
+            var url=jQueryanchor.attr('href');
+            var hash = url.substring(url.indexOf('#'));
+            if(jQuery(hash).length)
+            {
+                jQuery('html, body').stop().animate({
+                    scrollTop: jQuery(hash).offset().top - 80
+                }, 1000);
+                event.preventDefault();
+            }
+        });
         (function () {
             window.onerror = function myErrorHandler(errorMsg, url, lineNumber) {   
             return true;
